@@ -1,0 +1,47 @@
+{
+  "patch_version": "1.0.0",
+  "game": "Young Homer: A Storyteller's Odyssey",
+  "product_version": "2.0.0.1",
+  "engine": "GameMaker 2 VM",
+  "bytecode_version": 17,
+  "source_files": {
+    "data.win": {
+      "bytes": 1225500,
+      "sha256": "12990b289eb35392f1c021f7e18e3b2aec6feed885e26dfeb2ce6cb63607e2da"
+    },
+    "younghomer.exe": {
+      "bytes": 7881216,
+      "sha256": "3f5e1c032ed057f2dadfb31f90a980fb4dd03ebe4c58bdb0efb524148cdd893"
+    }
+  },
+  "resources": {
+    "strings_total": 4266,
+    "translatable_entries": 599,
+    "sprites_total": 78,
+    "text_sprites": 3,
+    "fonts_total": 29,
+    "fonts_with_cjk": 0
+  },
+  "tooling": {
+    "utmt_cli": {
+      "version": "0.9.2.0",
+      "source": "https://github.com/UnderminersTeam/UndertaleModTool/releases",
+      "bytes": 62585935,
+      "sha256": "e7573e45d107be34f81f955c6e4afc3c7c8f2628e5a6f307a871e3825b3dfb40"
+    },
+    "font_sources": [
+      {
+        "file": "materials/fonts/source/fusion-pixel-10px-proportional-zh_hans.bdf",
+        "bytes": 3483834,
+        "sha256": "1e89c73459f779813c2430f2195b62bf897884c45ecdd6222ace148708341865"
+      },
+      {
+        "file": "materials/fonts/source/fusion-pixel-12px-proportional-zh_hans.bdf",
+        "bytes": 5372699,
+        "sha256": "e63d09ca1e010e492e166c5c248de04d70c16403dd466db0665b7cc270f92c55"
+      }
+    ]
+  },
+  "language_policy": "No native language selector; replace default English with zh-Hans.",
+  "release_policy": "Dynamic no-argument MSDelta installer; never ship an original or localized data.win."
+}
